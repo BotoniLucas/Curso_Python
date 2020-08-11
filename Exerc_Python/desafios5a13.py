@@ -22,7 +22,8 @@ print('O valor em centímetros de {}m é {}cm \n O Valor em milímetros de {}m �
 # desafio 9
 
 n9 = int(input('Digite qual tabuada quer saber: '))
-print(' {} \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n {}' .format(n9*1, n9*2, n9*3, n9*4, n9*5, n9*6, n9*7, n9*8, n9*9, n9*10))
+print(' {} \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n {}' .format(n9*1, n9*2, n9*3, n9*4, n9*5, n9*6, n9*7, n9*8, n9*9, n9*10)) # antigo
+
 
 # desafio 10
 
@@ -34,7 +35,7 @@ print('Com R${:.2f} você pode comprar US${:.2f}' .format(n10, (n10/5.41)))
 n111 = float(input('Digite a largura: '))
 n112 = float(input('Digite a altura: '))
 a = n111*n112
-print('Você precisa de {:.2f} L de tinta para uma área de {}m2' .format((a/2), a))
+print('Você precisa de {:.2f} L de tinta para uma área de {}m²' .format((a/2), a))
 
 # desafio 12
 
