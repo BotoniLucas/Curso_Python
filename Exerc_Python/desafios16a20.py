@@ -45,11 +45,3 @@ n4 = input('Digite o nome do quarto aluno: ')
 lista = [n1, n2, n3, n4]
 random.shuffle(lista)
 print(f'A ordem de apresentação é \n{lista}')
-
-# desafio 21
-import pygame
-
-pygame.mixer.init()
-pygame.mixer.music.load('Deutschland.mp3')
-pygame.mixer.music.play()
-while (pygame.mixer.music.get_busy()): pass
