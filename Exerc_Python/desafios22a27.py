@@ -5,7 +5,7 @@ nome = str(input('Digite o seu nome completo: ')).strip()
 print(nome.upper()) # todas em maiúsculo
 print((nome.lower())) # todas em minúsculo
 print(len(nome)-nome.count(' ')) # numero total de letras (sem os espaços)
-print(nome[0])) # primeiro nome
+print(nome[0]) # primeiro nome
 print(len(nome[0])) # quantas letras tem o primeiro nome ou nome.find(' ') - tudo antes do primeiro espaço
 
 # desafio 23
